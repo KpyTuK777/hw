@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+h1,
+h2 {
+    color: violet;
+}
+
+div.description {
+    color: gray
+}
+
+p {
+    color: blue;
+}
+
+.text {
+    color: green;
+}
+
+.text.red {
+    color: red;
+}
+
+.result {
+    color: hotpink;
+}
+
+.squad {
+    color: fuchsia;
+}
+
+ol>li>ul>li {
+    color: gold;
+}
+
+#forward {
+    color: tomato;
+}
+
+ol>li {
+    color: rebeccapurple;
+}
+
+a.link {
+    color: blue;
+}
+
+.description+p {
+    color: yellowgreen;
+}
+
+.link~.date {
+    color: palevioletred;
+}
+
+.article>.cards {
+    color: hotpink;
+}
