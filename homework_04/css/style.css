@@ -33,12 +33,14 @@ li {
     font-family: "ProximaNova", sans-serif;
     font-weight: 700;
     color: blue;
+    font-size: 26px;
 }
 
 h2 {
     font-family: "ProximaNova", sans-serif;
     font-weight: 700;
     text-align: center;
+    font-size: 30px;
 }
 
 #result {
