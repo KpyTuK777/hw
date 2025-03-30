@@ -182,7 +182,9 @@
 }
 
 .section_2_block_1>span {
-    max-width: 500px;
+    max-width: 200px;
+    max-height: 120px;
+    overflow: auto;
     width: 100%;
     vertical-align: middle;
     text-align: center;
