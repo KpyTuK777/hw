@@ -226,3 +226,10 @@
 #fourth_p {
     margin-top: 125px;
 }
+
+.section_2 {
+    max-width: 1920px;
+    width: 100%;
+    min-height: 820px;
+    background-color: violet;
+}
