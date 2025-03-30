@@ -1,0 +1,228 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    min-height: 820px;
+    background-color: #231F8B;
+}
+
+.container {
+    font-family: "Circular Std", sans-serif;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    padding: 112px 15px;
+}
+
+.title_box {
+    max-width: 1044px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.title {
+    max-width: 765px;
+    width: 100%;
+    color: #fff;
+}
+
+.title_desc {
+    color: #5A54F2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.title_name {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.title_content {
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.items {
+    max-width: 1050px;
+    width: 100%;
+    min-height: 288px;
+    color: #252B42;
+    font-size: 0;
+}
+
+.item_one,
+.item_two,
+.item_three {
+    max-width: 230px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 39.5px;
+    vertical-align: top;
+    padding: 35px 40px;
+}
+
+.item_one {
+    background-color: #fff;
+}
+
+.item_two {
+    background-color: #fff;
+    margin-top: 48px;
+}
+
+.item_three {
+    background-color: #5A54F2;
+}
+
+.item_four {
+    max-width: 230px;
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 48px;
+    vertical-align: top;
+    padding: 35px 40px;
+}
+
+.item_icon {
+    margin-bottom: 20px;
+}
+
+.item_caption {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.red_line {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    margin-bottom: 20px;
+}
+
+.item_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.white_line {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+#sox_caption {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.white_line~div {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.section_2 {
+    color: #fff;
+}
+
+.container_2 {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    padding: 112px 15px;
+}
+
+.caption_section_2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section_2 p {
+    font-family: "Circular Std", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section_2 span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.section_2_block_1>p {
+    margin: 20px 0;
+}
+
+.section_2_block_1>span {
+    max-width: 500px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.img_section_2 {
+    max-width: 500px;
+    width: 100%;
+}
+
+.section_2_text {
+    max-width: 250px;
+    width: 100%;
+    display: inline-block;
+    background-color: gray;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.section_2_text>p {
+    margin: 15px 0;
+}
+
+#first_p {
+    margin-top: 150px;
+}
+
+#second_p {
+    margin-top: 100px;
+}
+
+#third_p {
+    margin-top: 200px;
+}
+
+#fourth_p {
+    margin-top: 125px;
+}
