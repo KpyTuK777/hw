@@ -1,0 +1,190 @@
+@import url(reset.css);
+
+.header,
+.footer {
+    background: rgb(25, 25, 143);
+    background: linear-gradient(90deg, rgba(25, 25, 143, 1) 12%, rgba(20, 166, 108, 1) 52%, rgba(0, 245, 255, 1) 78%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #a103c9;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    background-color: #302C42;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0px;
+    padding: 15px 15px;
+    background: url("../images/vector_01.png") no-repeat, url("../images/vector_02.png") no-repeat bottom;
+    background-size: 100%;
+}
+
+
+.pic {
+    max-width: 520px;
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: top;
+}
+
+.content {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    max-width: 630px;
+}
+
+.caption {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.caption_desc {
+    font-size: 36px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 42px;
+}
+
+.description {
+    margin-bottom: 45px;
+    min-height: 230px;
+    line-height: 1.5;
+}
+
+.button {
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 214px;
+    height: 48px;
+    color: #343045;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    text-align: center;
+}
+
+.push_button {
+    padding: 17px 0;
+}
+
+#virtuality {
+    border-radius: 46.15% 19.23% 46.15% 19.23% / 42.86% 17.86% 42.85% 17.86%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #A3A3A3;
+}
+
+.section_2 {
+    margin-top: 100px;
+}
+
+.container_2 {
+    max-width: 1280px;
+    width: 100%;
+    min-height: 170px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    border-radius: 90px;
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+    font-size: 0;
+    margin-bottom: 100px;
+}
+
+.container_2>div {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact_info {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+
+}
+
+.location {
+    max-width: 420px;
+    width: 100%;
+}
+
+.phone {
+    max-width: 340px;
+    width: 100%;
+}
+
+.mail {
+    max-width: 420px;
+    width: 100%;
+}
+
+.contact_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.icon {
+    padding-left: 40px;
+}
+
+.icon:not(:first-child) {
+    padding-right: 20px;
+}
+
+.ecobazar {
+    min-height: 100%;
+    background-color: #fff;
+}
+
+.container_3 {
+    max-width: 648px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0px;
+    padding: 15px 15px;
+    margin-top: 32px;
+}
+
+
+.text,
+.list-items {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #808080;
+}
+
+.text p:first-child {
+    margin-bottom: 15px;
+}
+
+.list-items {
+    margin: 20px 0;
+    line-height: 140%;
+}
+
+.list-items .item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.item {
+    background-image: url(../images/check_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    min-height: 20px;
+}
