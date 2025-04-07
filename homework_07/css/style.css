@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+.wrapper {
+    min-height: 100%;
+    background-color: hotpink;
+    overflow: clip;
+
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    background-color: aqua;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.caption {
+    text-align: center;
+}
+
+a {
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: gold;
+}
+
+.link {
+    border: 5px solid violet;
+    border-radius: 30%;
+    box-shadow: 5px 8px 10px black;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: green;
+    box-shadow: none;
+}
+
+.link:active {
+    color: red;
+    box-shadow: 5px 8px 10px black;
+}
+
+.link:focus {
+    color: brown;
+    border: 5px solid green;
+}
