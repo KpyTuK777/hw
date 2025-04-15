@@ -2,49 +2,310 @@
 
 .wrapper {
     min-height: 100%;
-    background-color: hotpink;
     overflow: clip;
+}
 
+
+.section_1 {
+    width: 100%;
+    background-color: #412672;
 }
 
 .container {
-    max-width: 1250px;
+    max-width: 1230px;
     width: 100%;
-    background-color: aqua;
-    padding: 15px 0;
+    padding: 0 15px;
     margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #4F4F4F;
 }
 
-.caption {
-    text-align: center;
+.title {
+    color: #fff;
+    font-size: 38px;
+    padding-top: 60px;
+    margin-bottom: 20px;
 }
 
-a {
-    margin-bottom: 100px;
-    padding: 20px;
-    text-align: center;
-    background-color: gold;
+.title__description {
+    margin-bottom: 10px;
 }
 
-.link {
-    border: 5px solid violet;
-    border-radius: 30%;
-    box-shadow: 5px 8px 10px black;
-    font-size: 36px;
+.title__description--bold {
     font-weight: 700;
 }
 
-.link:hover {
-    color: green;
-    box-shadow: none;
+.cards {
+    font-size: 0px;
+    padding-bottom: 100px;
 }
 
-.link:active {
-    color: red;
-    box-shadow: 5px 8px 10px black;
+.item-card {
+    display: inline-block;
+    max-width: 380px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 476px;
+    height: 100%;
+    margin-top: 10px;
+    vertical-align: top;
+    box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
 }
 
-.link:focus {
-    color: brown;
-    border: 5px solid green;
+.item-card:not(:last-child) {
+    margin-right: 20px;
+}
+
+.item-card:hover {
+    background-color: #FFBE48;
+    transition: 0.3s;
+}
+
+.item-card__picture {
+    margin-bottom: 16px;
+}
+
+.item-card__title {
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.item-card__subtitle {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 126%;
+    min-height: 76px;
+    height: 100%;
+}
+
+.item-card__info {
+    font-size: 15px;
+    color: #FE3F3F;
+    line-height: 126%;
+}
+
+.item-card__info:focus {
+    text-decoration: underline 2px;
+}
+
+.info {
+    max-width: 520px;
+    width: 100%;
+    padding: 150px 0 140px 0;
+}
+
+.info__title {
+    color: #412672;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.info__caption--bold {
+    font-weight: 700;
+}
+
+.info__subtitle {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.info__list {
+    font-size: 20px;
+    line-height: 255%;
+}
+
+.info__li::before {
+    content: "";
+    background-image: url("../images/icon_01.svg");
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.section_3 {
+    padding-bottom: 40px;
+}
+
+.game-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: violet;
+    background-color: green;
+    border-radius: 30%;
+    padding: 20px 0 20px 0;
+    margin-bottom: 30px;
+}
+
+
+.blocks-game {
+    background-image: url("../images/photo_05.webp");
+    background-repeat: no-repeat;
+    min-height: 400px;
+    height: 100%;
+    margin-bottom: 40px;
+    font-size: 0;
+}
+
+[class*=blocks-game__element]:not(:nth-last-child(2)) {
+    background-color: pink;
+    display: inline-block;
+}
+
+[class*=blocks-game__element]:not(:first-child) {
+    visibility: hidden;
+}
+
+.blocks-game__element01 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #240303;
+    background-color: pink;
+    width: 300px;
+    vertical-align: middle;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.blocks-game__element01::after {
+    content: "";
+    background-image: url("../images/icon_02.svg");
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.blocks-game__element02 {
+    width: 100px;
+    height: 20px;
+}
+
+.blocks-game__element03 {
+    width: 20px;
+    height: 200px;
+    margin-top: 300px;
+}
+
+.blocks-game__element04 {
+    width: 45px;
+    height: 10px;
+    vertical-align: top;
+    margin-top: 300px;
+}
+
+.blocks-game__element05 {
+    width: 20px;
+    height: 90px;
+    margin-top: 300px;
+    vertical-align: top;
+}
+
+.blocks-game__element06 {
+    width: 250px;
+    height: 10px;
+    vertical-align: top;
+    margin-top: 380px;
+}
+
+.blocks-game__element07 {
+    width: 15px;
+    height: 250px;
+    vertical-align: top;
+    margin-top: 140px;
+}
+
+.blocks-game__element08 {
+    width: 200px;
+    height: 10px;
+    vertical-align: top;
+    margin-top: 140px;
+}
+
+.blocks-game__element09 {
+    background-image: url("../images/gif_01.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 235px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 300px;
+    padding-top: 120px;
+}
+
+.blocks-game__element01:hover+.blocks-game__element02 {
+    visibility: visible;
+}
+
+.blocks-game__element02:hover {
+    visibility: visible;
+}
+
+.blocks-game__element02:hover+.blocks-game__element03 {
+    visibility: visible;
+}
+
+.blocks-game__element03:hover {
+    visibility: visible;
+}
+
+.blocks-game__element03:hover+.blocks-game__element04 {
+    visibility: visible;
+}
+
+.blocks-game__element04:hover {
+    visibility: visible;
+}
+
+.blocks-game__element04:hover+.blocks-game__element05 {
+    visibility: visible;
+}
+
+.blocks-game__element05:hover {
+    visibility: visible;
+}
+
+.blocks-game__element05:hover+.blocks-game__element06 {
+    visibility: visible;
+}
+
+.blocks-game__element06:hover {
+    visibility: visible;
+}
+
+.blocks-game__element06:hover+.blocks-game__element07 {
+    visibility: visible;
+}
+
+.blocks-game__element07:hover {
+    visibility: visible;
+}
+
+.blocks-game__element07:hover+.blocks-game__element08 {
+    visibility: visible;
+}
+
+.blocks-game__element08:hover {
+    visibility: visible;
+}
+
+.blocks-game__element08:hover+.blocks-game__element09 {
+    visibility: visible;
+}
+
+.blocks-game__element09:hover {
+    visibility: visible;
+}
+
+.spring_vibes {
+    visibility: hidden;
+}
+
+.fire:target .spring_vibes {
+    visibility: visible;
 }
