@@ -97,8 +97,6 @@ h1 {
     transition: 0.4s;
 }
 
-.item-card__pic {}
-
 .item-card__title {
     font-weight: 600;
     font-size: 22px;
@@ -186,8 +184,6 @@ h1 {
     gap: 20px;
 }
 
-.content-image__item {}
-
 .content-image__link {
     height: 15px;
     width: 15px;
@@ -199,8 +195,6 @@ h1 {
     background-color: #412672;
     transition: 0.3s;
 }
-
-
 
 .section-3 {
     background-color: #412672;
@@ -215,13 +209,10 @@ h1 {
     margin-bottom: 30px;
 }
 
-.section-3__cards {}
-
 .card-section-3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .card-section-3__item {
@@ -229,8 +220,6 @@ h1 {
     gap: 10px;
     flex-grow: 1;
 }
-
-.card-section-3__image {}
 
 .card-section-3__about {
     display: flex;
@@ -252,10 +241,6 @@ h1 {
     font-weight: 700;
 }
 
-
-
-
-
 .footer {
     color: #4F4F4F;
 }
@@ -270,5 +255,4 @@ h1 {
     background-color: violet;
     margin-left: 100px;
     margin-bottom: 20px;
-
 }
