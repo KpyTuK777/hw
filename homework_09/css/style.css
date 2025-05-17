@@ -298,6 +298,7 @@ body {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 
 .section-info__images {
