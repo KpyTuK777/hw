@@ -296,7 +296,7 @@
 }
 
 .section-2 {
-    background: url("/images/section-2/icons/background.svg");
+    background: url("./images/section-2/icons/background.svg");
     width: 1920px;
     height: 1110px;
     position: relative;
