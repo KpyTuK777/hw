@@ -306,7 +306,7 @@
 .pics-part-1__wrapper-pic {
     width: 430px;
     height: 548px;
-    background: url("/images/section-2/content_pic_01.avif");
+    background: url("../images/section-2/content_pic_01.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -150px;
@@ -410,7 +410,7 @@
 .pics-part-1__wrapper-pic-2 {
     width: 430px;
     height: 548px;
-    background: url("/images/section-2/content_pic_02.avif");
+    background: url("images/section-2/content_pic_02.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -150px;
